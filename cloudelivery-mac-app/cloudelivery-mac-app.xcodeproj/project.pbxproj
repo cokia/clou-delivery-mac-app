@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10DE368580D951B81668B045 /* Pods_cloudelivery_mac_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B72501F654A6CC79E86D36D /* Pods_cloudelivery_mac_app.framework */; };
 		A8BAA53023F050BB003BA437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAA52F23F050BB003BA437 /* AppDelegate.swift */; };
 		A8BAA53423F050BC003BA437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BAA53323F050BC003BA437 /* Assets.xcassets */; };
 		A8BAA53723F050BC003BA437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BAA53523F050BC003BA437 /* Main.storyboard */; };
 		A8BAA54023F05164003BA437 /* appViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAA53F23F05164003BA437 /* appViewController.swift */; };
 		A8BAA54223F051B2003BA437 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAA54123F051B2003BA437 /* EventMonitor.swift */; };
-		A8BAA54423F051D8003BA437 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAA54323F051D8003BA437 /* Quote.swift */; };
+		A8DFC5A523F061EE00B7DBBF /* box-1.json in Resources */ = {isa = PBXBuildFile; fileRef = A8DFC5A423F061EE00B7DBBF /* box-1.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		342CA6B5ACBB736211741986 /* Pods-cloudelivery-mac-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudelivery-mac-app.debug.xcconfig"; path = "Target Support Files/Pods-cloudelivery-mac-app/Pods-cloudelivery-mac-app.debug.xcconfig"; sourceTree = "<group>"; };
+		8B72501F654A6CC79E86D36D /* Pods_cloudelivery_mac_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cloudelivery_mac_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BAA52C23F050BB003BA437 /* cloudelivery-mac-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cloudelivery-mac-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8BAA52F23F050BB003BA437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8BAA53323F050BC003BA437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -24,7 +27,8 @@
 		A8BAA53923F050BC003BA437 /* cloudelivery_mac_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cloudelivery_mac_app.entitlements; sourceTree = "<group>"; };
 		A8BAA53F23F05164003BA437 /* appViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = appViewController.swift; path = "../../../../Downloads/Quotes_final-s4b3 2/Quotes/appViewController.swift"; sourceTree = "<group>"; };
 		A8BAA54123F051B2003BA437 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = "../../../../Downloads/Quotes_final-s4b3 2/Quotes/EventMonitor.swift"; sourceTree = "<group>"; };
-		A8BAA54323F051D8003BA437 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quote.swift; path = "../../../../Downloads/Quotes_final-s4b3 2/Quotes/Quote.swift"; sourceTree = "<group>"; };
+		A8DFC5A423F061EE00B7DBBF /* box-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "box-1.json"; path = "../../../../Downloads/box-1.json"; sourceTree = "<group>"; };
+		C24E05C5C21559A8607D15EF /* Pods-cloudelivery-mac-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudelivery-mac-app.release.xcconfig"; path = "Target Support Files/Pods-cloudelivery-mac-app/Pods-cloudelivery-mac-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,17 +36,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10DE368580D951B81668B045 /* Pods_cloudelivery_mac_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4745B21E94B7F39A828CBF5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				342CA6B5ACBB736211741986 /* Pods-cloudelivery-mac-app.debug.xcconfig */,
+				C24E05C5C21559A8607D15EF /* Pods-cloudelivery-mac-app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		494E9F5FCED78081A50DC8F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B72501F654A6CC79E86D36D /* Pods_cloudelivery_mac_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A8BAA52323F050BB003BA437 = {
 			isa = PBXGroup;
 			children = (
 				A8BAA52E23F050BB003BA437 /* cloudelivery-mac-app */,
 				A8BAA52D23F050BB003BA437 /* Products */,
+				4745B21E94B7F39A828CBF5E /* Pods */,
+				494E9F5FCED78081A50DC8F7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,8 +83,8 @@
 			children = (
 				A8BAA53F23F05164003BA437 /* appViewController.swift */,
 				A8BAA52F23F050BB003BA437 /* AppDelegate.swift */,
-				A8BAA54323F051D8003BA437 /* Quote.swift */,
 				A8BAA54123F051B2003BA437 /* EventMonitor.swift */,
+				A8DFC5A423F061EE00B7DBBF /* box-1.json */,
 				A8BAA53323F050BC003BA437 /* Assets.xcassets */,
 				A8BAA53523F050BC003BA437 /* Main.storyboard */,
 				A8BAA53823F050BC003BA437 /* Info.plist */,
@@ -76,9 +100,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8BAA53C23F050BC003BA437 /* Build configuration list for PBXNativeTarget "cloudelivery-mac-app" */;
 			buildPhases = (
+				55C55922E8966D8CCA6271BD /* [CP] Check Pods Manifest.lock */,
 				A8BAA52823F050BB003BA437 /* Sources */,
 				A8BAA52923F050BB003BA437 /* Frameworks */,
 				A8BAA52A23F050BB003BA437 /* Resources */,
+				8668A861EEB8AA8E5F89529E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +154,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8BAA53423F050BC003BA437 /* Assets.xcassets in Resources */,
+				A8DFC5A523F061EE00B7DBBF /* box-1.json in Resources */,
 				A8BAA53723F050BC003BA437 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		55C55922E8966D8CCA6271BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cloudelivery-mac-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8668A861EEB8AA8E5F89529E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cloudelivery-mac-app/Pods-cloudelivery-mac-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cloudelivery-mac-app/Pods-cloudelivery-mac-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cloudelivery-mac-app/Pods-cloudelivery-mac-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A8BAA52823F050BB003BA437 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8BAA54423F051D8003BA437 /* Quote.swift in Sources */,
 				A8BAA54223F051B2003BA437 /* EventMonitor.swift in Sources */,
 				A8BAA53023F050BB003BA437 /* AppDelegate.swift in Sources */,
 				A8BAA54023F05164003BA437 /* appViewController.swift in Sources */,
@@ -275,6 +343,7 @@
 		};
 		A8BAA53D23F050BC003BA437 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 342CA6B5ACBB736211741986 /* Pods-cloudelivery-mac-app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "cloudelivery-mac-app/cloudelivery_mac_app.entitlements";
@@ -295,6 +364,7 @@
 		};
 		A8BAA53E23F050BC003BA437 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24E05C5C21559A8607D15EF /* Pods-cloudelivery-mac-app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "cloudelivery-mac-app/cloudelivery_mac_app.entitlements";

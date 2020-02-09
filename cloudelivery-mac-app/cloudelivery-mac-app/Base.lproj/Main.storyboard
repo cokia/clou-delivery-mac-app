@@ -685,11 +685,11 @@
             <objects>
                 <viewController storyboardIdentifier="appViewController" id="zBb-Pu-Fv0" customClass="appViewController" customModule="cloudelivery_mac_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="Pc2-bk-WdD">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="214"/>
+                        <rect key="frame" x="0.0" y="0.0" width="281" height="214"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="w1V-fp-AxQ">
-                                <rect key="frame" x="169" y="13" width="113" height="32"/>
+                                <rect key="frame" x="84" y="13" width="113" height="32"/>
                                 <buttonCell key="cell" type="push" title="Quit Quotes" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LG1-Iz-0D1">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -698,58 +698,16 @@
                                     <action selector="quitWithSender:" target="zBb-Pu-Fv0" id="9Wj-1a-HjF"/>
                                 </connections>
                             </button>
-                            <textField horizontalHuggingPriority="249" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="mcg-eF-kMS">
-                                <rect key="frame" x="71" y="99" width="308" height="16"/>
-                                <textFieldCell key="cell" sendsActionOnEndEditing="YES" alignment="center" title="Multiline Label" id="W9Y-7I-pzH">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="yeo-j8-LLv">
-                                <rect key="frame" x="14" y="90" width="45" height="32"/>
-                                <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSLeftFacingTriangleTemplate" imagePosition="only" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="2jD-dc-nQN">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="previous:" target="zBb-Pu-Fv0" id="v1W-e6-E2E"/>
-                                </connections>
-                            </button>
-                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="hVB-oN-ire">
-                                <rect key="frame" x="391" y="90" width="45" height="32"/>
-                                <buttonCell key="cell" type="push" bezelStyle="rounded" image="NSRightFacingTriangleTemplate" imagePosition="only" alignment="center" lineBreakMode="truncatingTail" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="bAM-pv-2H0">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                </buttonCell>
-                                <connections>
-                                    <action selector="next:" target="zBb-Pu-Fv0" id="Vw3-js-DbS"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="yeo-j8-LLv" firstAttribute="leading" secondItem="Pc2-bk-WdD" secondAttribute="leading" constant="20" id="6c6-rf-l1h"/>
-                            <constraint firstItem="mcg-eF-kMS" firstAttribute="centerY" secondItem="Pc2-bk-WdD" secondAttribute="centerY" id="7zL-d3-r7Z"/>
-                            <constraint firstItem="hVB-oN-ire" firstAttribute="leading" secondItem="mcg-eF-kMS" secondAttribute="trailing" constant="20" id="SKO-zi-8Lg"/>
-                            <constraint firstItem="mcg-eF-kMS" firstAttribute="leading" secondItem="yeo-j8-LLv" secondAttribute="trailing" constant="20" id="Yux-Yi-TV7"/>
                             <constraint firstItem="w1V-fp-AxQ" firstAttribute="centerX" secondItem="Pc2-bk-WdD" secondAttribute="centerX" id="c8R-MY-ahW"/>
-                            <constraint firstItem="yeo-j8-LLv" firstAttribute="centerY" secondItem="mcg-eF-kMS" secondAttribute="centerY" id="hJN-jX-tu8"/>
-                            <constraint firstAttribute="trailing" secondItem="hVB-oN-ire" secondAttribute="trailing" constant="20" id="iCz-bV-xCy"/>
                             <constraint firstAttribute="bottom" secondItem="w1V-fp-AxQ" secondAttribute="bottom" constant="20" id="lyH-Mv-wZD"/>
-                            <constraint firstItem="hVB-oN-ire" firstAttribute="centerY" secondItem="mcg-eF-kMS" secondAttribute="centerY" id="vG7-s7-uTB"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="textLabel" destination="mcg-eF-kMS" id="SaK-57-vAP"/>
-                    </connections>
                 </viewController>
                 <customObject id="3Pb-WW-xKH" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="782" y="244"/>
+            <point key="canvasLocation" x="697.5" y="244"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="NSLeftFacingTriangleTemplate" width="9" height="12"/>
-        <image name="NSRightFacingTriangleTemplate" width="9" height="12"/>
-    </resources>
 </document>
