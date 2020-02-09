@@ -2,12 +2,11 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "quotes.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "quotes@2x.png",
+      "filename" : "StatusBarButtonImage@2x.png",
       "scale" : "2x"
     },
     {
@@ -18,5 +17,8 @@
   "info" : {
     "version" : 1,
     "author" : "xcode"
+  },
+  "properties" : {
+    "template-rendering-intent" : "template"
   }
 }

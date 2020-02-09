@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A8BAA53023F050BB003BA437 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAA52F23F050BB003BA437 /* AppDelegate.swift */; };
+		A8BAA53423F050BC003BA437 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8BAA53323F050BC003BA437 /* Assets.xcassets */; };
+		A8BAA53723F050BC003BA437 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8BAA53523F050BC003BA437 /* Main.storyboard */; };
+		A8BAA54023F05164003BA437 /* appViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAA53F23F05164003BA437 /* appViewController.swift */; };
+		A8BAA54223F051B2003BA437 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAA54123F051B2003BA437 /* EventMonitor.swift */; };
+		A8BAA54423F051D8003BA437 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAA54323F051D8003BA437 /* Quote.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A8BAA52C23F050BB003BA437 /* cloudelivery-mac-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cloudelivery-mac-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8BAA52F23F050BB003BA437 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A8BAA53323F050BC003BA437 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8BAA53623F050BC003BA437 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8BAA53823F050BC003BA437 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8BAA53923F050BC003BA437 /* cloudelivery_mac_app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cloudelivery_mac_app.entitlements; sourceTree = "<group>"; };
+		A8BAA53F23F05164003BA437 /* appViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = appViewController.swift; path = "../../../../Downloads/Quotes_final-s4b3 2/Quotes/appViewController.swift"; sourceTree = "<group>"; };
+		A8BAA54123F051B2003BA437 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = "../../../../Downloads/Quotes_final-s4b3 2/Quotes/EventMonitor.swift"; sourceTree = "<group>"; };
+		A8BAA54323F051D8003BA437 /* Quote.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quote.swift; path = "../../../../Downloads/Quotes_final-s4b3 2/Quotes/Quote.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8BAA52923F050BB003BA437 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A8BAA52323F050BB003BA437 = {
+			isa = PBXGroup;
+			children = (
+				A8BAA52E23F050BB003BA437 /* cloudelivery-mac-app */,
+				A8BAA52D23F050BB003BA437 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8BAA52D23F050BB003BA437 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8BAA52C23F050BB003BA437 /* cloudelivery-mac-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8BAA52E23F050BB003BA437 /* cloudelivery-mac-app */ = {
+			isa = PBXGroup;
+			children = (
+				A8BAA53F23F05164003BA437 /* appViewController.swift */,
+				A8BAA52F23F050BB003BA437 /* AppDelegate.swift */,
+				A8BAA54323F051D8003BA437 /* Quote.swift */,
+				A8BAA54123F051B2003BA437 /* EventMonitor.swift */,
+				A8BAA53323F050BC003BA437 /* Assets.xcassets */,
+				A8BAA53523F050BC003BA437 /* Main.storyboard */,
+				A8BAA53823F050BC003BA437 /* Info.plist */,
+				A8BAA53923F050BC003BA437 /* cloudelivery_mac_app.entitlements */,
+			);
+			path = "cloudelivery-mac-app";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8BAA52B23F050BB003BA437 /* cloudelivery-mac-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BAA53C23F050BC003BA437 /* Build configuration list for PBXNativeTarget "cloudelivery-mac-app" */;
+			buildPhases = (
+				A8BAA52823F050BB003BA437 /* Sources */,
+				A8BAA52923F050BB003BA437 /* Frameworks */,
+				A8BAA52A23F050BB003BA437 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cloudelivery-mac-app";
+			productName = "cloudelivery-mac-app";
+			productReference = A8BAA52C23F050BB003BA437 /* cloudelivery-mac-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8BAA52423F050BB003BA437 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = hanukoon;
+				TargetAttributes = {
+					A8BAA52B23F050BB003BA437 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = A8BAA52723F050BB003BA437 /* Build configuration list for PBXProject "cloudelivery-mac-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8BAA52323F050BB003BA437;
+			productRefGroup = A8BAA52D23F050BB003BA437 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8BAA52B23F050BB003BA437 /* cloudelivery-mac-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8BAA52A23F050BB003BA437 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BAA53423F050BC003BA437 /* Assets.xcassets in Resources */,
+				A8BAA53723F050BC003BA437 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8BAA52823F050BB003BA437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8BAA54423F051D8003BA437 /* Quote.swift in Sources */,
+				A8BAA54223F051B2003BA437 /* EventMonitor.swift in Sources */,
+				A8BAA53023F050BB003BA437 /* AppDelegate.swift in Sources */,
+				A8BAA54023F05164003BA437 /* appViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8BAA53523F050BC003BA437 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8BAA53623F050BC003BA437 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8BAA53A23F050BC003BA437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A8BAA53B23F050BC003BA437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A8BAA53D23F050BC003BA437 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "cloudelivery-mac-app/cloudelivery_mac_app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9GW34P3A2G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "cloudelivery-mac-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.cloudelivery-mac-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A8BAA53E23F050BC003BA437 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "cloudelivery-mac-app/cloudelivery_mac_app.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9GW34P3A2G;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "cloudelivery-mac-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanukoon.cloudelivery-mac-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8BAA52723F050BB003BA437 /* Build configuration list for PBXProject "cloudelivery-mac-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BAA53A23F050BC003BA437 /* Debug */,
+				A8BAA53B23F050BC003BA437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BAA53C23F050BC003BA437 /* Build configuration list for PBXNativeTarget "cloudelivery-mac-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8BAA53D23F050BC003BA437 /* Debug */,
+				A8BAA53E23F050BC003BA437 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8BAA52423F050BB003BA437 /* Project object */;
+}
