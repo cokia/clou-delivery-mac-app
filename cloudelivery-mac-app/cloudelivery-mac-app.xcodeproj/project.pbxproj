@@ -14,6 +14,10 @@
 		A8BAA54023F05164003BA437 /* appViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAA53F23F05164003BA437 /* appViewController.swift */; };
 		A8BAA54223F051B2003BA437 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAA54123F051B2003BA437 /* EventMonitor.swift */; };
 		A8DFC5A523F061EE00B7DBBF /* box-1.json in Resources */ = {isa = PBXBuildFile; fileRef = A8DFC5A423F061EE00B7DBBF /* box-1.json */; };
+		A8DFC5AA23F069CF00B7DBBF /* box-3.json in Resources */ = {isa = PBXBuildFile; fileRef = A8DFC5A623F069CF00B7DBBF /* box-3.json */; };
+		A8DFC5AB23F069CF00B7DBBF /* box-2.json in Resources */ = {isa = PBXBuildFile; fileRef = A8DFC5A723F069CF00B7DBBF /* box-2.json */; };
+		A8DFC5AC23F069CF00B7DBBF /* box-5.json in Resources */ = {isa = PBXBuildFile; fileRef = A8DFC5A823F069CF00B7DBBF /* box-5.json */; };
+		A8DFC5AD23F069CF00B7DBBF /* box-4.json in Resources */ = {isa = PBXBuildFile; fileRef = A8DFC5A923F069CF00B7DBBF /* box-4.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		A8BAA53F23F05164003BA437 /* appViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = appViewController.swift; path = "../../../../Downloads/Quotes_final-s4b3 2/Quotes/appViewController.swift"; sourceTree = "<group>"; };
 		A8BAA54123F051B2003BA437 /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = "../../../../Downloads/Quotes_final-s4b3 2/Quotes/EventMonitor.swift"; sourceTree = "<group>"; };
 		A8DFC5A423F061EE00B7DBBF /* box-1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "box-1.json"; path = "../../../../Downloads/box-1.json"; sourceTree = "<group>"; };
+		A8DFC5A623F069CF00B7DBBF /* box-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "box-3.json"; path = "../../../../Downloads/box-3.json"; sourceTree = "<group>"; };
+		A8DFC5A723F069CF00B7DBBF /* box-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "box-2.json"; path = "../../../../Downloads/box-2.json"; sourceTree = "<group>"; };
+		A8DFC5A823F069CF00B7DBBF /* box-5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "box-5.json"; path = "../../../../Downloads/box-5.json"; sourceTree = "<group>"; };
+		A8DFC5A923F069CF00B7DBBF /* box-4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "box-4.json"; path = "../../../../Downloads/box-4.json"; sourceTree = "<group>"; };
 		C24E05C5C21559A8607D15EF /* Pods-cloudelivery-mac-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cloudelivery-mac-app.release.xcconfig"; path = "Target Support Files/Pods-cloudelivery-mac-app/Pods-cloudelivery-mac-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -85,6 +93,10 @@
 				A8BAA52F23F050BB003BA437 /* AppDelegate.swift */,
 				A8BAA54123F051B2003BA437 /* EventMonitor.swift */,
 				A8DFC5A423F061EE00B7DBBF /* box-1.json */,
+				A8DFC5A723F069CF00B7DBBF /* box-2.json */,
+				A8DFC5A623F069CF00B7DBBF /* box-3.json */,
+				A8DFC5A923F069CF00B7DBBF /* box-4.json */,
+				A8DFC5A823F069CF00B7DBBF /* box-5.json */,
 				A8BAA53323F050BC003BA437 /* Assets.xcassets */,
 				A8BAA53523F050BC003BA437 /* Main.storyboard */,
 				A8BAA53823F050BC003BA437 /* Info.plist */,
@@ -153,9 +165,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8DFC5AD23F069CF00B7DBBF /* box-4.json in Resources */,
 				A8BAA53423F050BC003BA437 /* Assets.xcassets in Resources */,
 				A8DFC5A523F061EE00B7DBBF /* box-1.json in Resources */,
 				A8BAA53723F050BC003BA437 /* Main.storyboard in Resources */,
+				A8DFC5AC23F069CF00B7DBBF /* box-5.json in Resources */,
+				A8DFC5AA23F069CF00B7DBBF /* box-3.json in Resources */,
+				A8DFC5AB23F069CF00B7DBBF /* box-2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
